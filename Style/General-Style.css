@@ -1,0 +1,30 @@
+:root {
+    --line-color: #0078FF;
+    --bckground: #F5F5F5;
+    --bckground-border-hover: #CDE1F8;
+    --font-size-heading-sections: 48px;
+}
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 80px
+}
+
+img {
+    width: 100%;
+    display: block;
+}
+
+.heading h1 {
+    font-size: var(--font-size-heading-sections);
+}
+
+.heading:after {
+    content: '';
+    width: 45px;
+    height: 5px;
+    position: absolute;
+    bottom: -15px;
+    right: 48%;
+    background-color: var(--line-color);
+}

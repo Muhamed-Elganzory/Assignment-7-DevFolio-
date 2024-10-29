@@ -1,0 +1,375 @@
+.freelancer::after {
+    content: '|';
+
+}
+
+.freelancer::before {
+    content: "";
+    animation: typing 16s linear infinite;
+}
+
+@keyframes typing {
+    0% {
+        content: "";
+    }
+
+    2.0833333333333335% {
+        content: "D";
+    }
+
+    4.166666666666667% {
+        content: "De";
+    }
+
+    6.25% {
+        content: "Des";
+    }
+
+    8.333333333333334% {
+        content: "Desi";
+    }
+
+    10.416666666666668% {
+        content: "Desig";
+    }
+
+    12.5% {
+        content: "Design";
+    }
+
+    14.583333333333334% {
+        content: "Designe";
+    }
+
+    16.666666666666668% {
+        content: "Designer";
+    }
+
+    18.75% {
+        content: "Designer ";
+    }
+
+    18.055555555555557% {
+        content: "Designer ";
+    }
+
+    18.75% {
+        content: "Designer";
+    }
+
+    19.444444444444443% {
+        content: "Designe";
+    }
+
+    20.13888888888889% {
+        content: "Design";
+    }
+
+    20.833333333333336% {
+        content: "Desig";
+    }
+
+    21.52777777777778% {
+        content: "Desi";
+    }
+
+    22.22222222222222% {
+        content: "Des";
+    }
+
+    22.916666666666668% {
+        content: "De";
+    }
+
+    23.61111111111111% {
+        content: "D";
+    }
+
+    25% {
+        content: "";
+    }
+
+    26.875% {
+        content: "D";
+    }
+
+    28.75% {
+        content: "De";
+    }
+
+    30.625% {
+        content: "Dev";
+    }
+
+    32.5% {
+        content: "Deve";
+    }
+
+    34.375% {
+        content: "Devel";
+    }
+
+    36.25% {
+        content: "Develo";
+    }
+
+    38.125% {
+        content: "Develop";
+    }
+
+    40% {
+        content: "Develope";
+    }
+
+    41.875% {
+        content: "Developer";
+    }
+
+    43.75% {
+        content: "Developer ";
+    }
+
+    43.125% {
+        content: "Developer ";
+    }
+
+    43.75% {
+        content: "Developer";
+    }
+
+    44.375% {
+        content: "Develope";
+    }
+
+    45% {
+        content: "Develop";
+    }
+
+    45.625% {
+        content: "Develo";
+    }
+
+    46.25% {
+        content: "Devel";
+    }
+
+    46.875% {
+        content: "Deve";
+    }
+
+    47.5% {
+        content: "Dev";
+    }
+
+    48.125% {
+        content: "De";
+    }
+
+    48.75% {
+        content: "D";
+    }
+
+    50% {
+        content: "";
+    }
+
+    51.70454545454545% {
+        content: "F";
+    }
+
+    53.40909090909091% {
+        content: "Fr";
+    }
+
+    55.11363636363636% {
+        content: "Fre";
+    }
+
+    56.81818181818182% {
+        content: "Free";
+    }
+
+    58.52272727272727% {
+        content: "Freel";
+    }
+
+    60.22727272727273% {
+        content: "Freela";
+    }
+
+    61.93181818181818% {
+        content: "Freelan";
+    }
+
+    63.63636363636364% {
+        content: "Freelanc";
+    }
+
+    65.3409090909091% {
+        content: "Freelance";
+    }
+
+    67.04545454545455% {
+        content: "Freelancer";
+    }
+
+    68.75% {
+        content: "Freelancer ";
+    }
+
+    68.18181818181819% {
+        content: "Freelancer ";
+    }
+
+    68.75% {
+        content: "Freelancer";
+    }
+
+    69.31818181818181% {
+        content: "Freelance";
+    }
+
+    69.88636363636364% {
+        content: "Freelanc";
+    }
+
+    70.45454545454545% {
+        content: "Freelan";
+    }
+
+    71.02272727272727% {
+        content: "Freela";
+    }
+
+    71.5909090909091% {
+        content: "Freel";
+    }
+
+    72.1590909090909% {
+        content: "Free";
+    }
+
+    72.72727272727273% {
+        content: "Fre";
+    }
+
+    73.29545454545455% {
+        content: "Fr";
+    }
+
+    73.86363636363636% {
+        content: "F";
+    }
+
+    75% {
+        content: "";
+    }
+
+    76.4423076923077% {
+        content: "P";
+    }
+
+    77.88461538461539% {
+        content: "Ph";
+    }
+
+    79.32692307692308% {
+        content: "Pho";
+    }
+
+    80.76923076923077% {
+        content: "Phot";
+    }
+
+    82.21153846153847% {
+        content: "Photo";
+    }
+
+    83.65384615384616% {
+        content: "Photog";
+    }
+
+    85.09615384615384% {
+        content: "Photogr";
+    }
+
+    86.53846153846153% {
+        content: "Photogra";
+    }
+
+    87.98076923076923% {
+        content: "Photograp";
+    }
+
+    89.42307692307692% {
+        content: "Photograph";
+    }
+
+    90.86538461538461% {
+        content: "Photographe";
+    }
+
+    92.3076923076923% {
+        content: "Photographer";
+    }
+
+    93.75% {
+        content: "Photographer ";
+    }
+
+    93.26923076923077% {
+        content: "Photographer ";
+    }
+
+    93.75% {
+        content: "Photographer";
+    }
+
+    94.23076923076923% {
+        content: "Photographe";
+    }
+
+    94.71153846153847% {
+        content: "Photograph";
+    }
+
+    95.1923076923077% {
+        content: "Photograp";
+    }
+
+    95.67307692307692% {
+        content: "Photogra";
+    }
+
+    96.15384615384616% {
+        content: "Photogr";
+    }
+
+    96.63461538461539% {
+        content: "Photog";
+    }
+
+    97.11538461538461% {
+        content: "Photo";
+    }
+
+    97.59615384615384% {
+        content: "Phot";
+    }
+
+    98.07692307692308% {
+        content: "Pho";
+    }
+
+    98.5576923076923% {
+        content: "Ph";
+    }
+
+    99.03846153846153% {
+        content: "P";
+    }
+
+    100% {
+        content: "";
+    }
+}

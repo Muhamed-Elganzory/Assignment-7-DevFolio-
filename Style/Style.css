@@ -1,0 +1,297 @@
+@import url(./Animation.css);
+@import url(./General-Style.css);
+
+/*& ----- Nav Bar ----- */
+.my-navbar {
+    background-color: rgb(0, 0, 0, 0.9);
+    padding: 12px 0px;
+}
+
+.logo {
+    text-decoration: none;
+    font-size: 28px;
+}
+
+.links a::before {
+    content: '';
+    position: absolute;
+    bottom: -1px;
+    width: 0px;
+    height: 2px;
+    background-color: #fff;
+    transition: all ease-in-out 0.5s;
+}
+
+.links :hover::before {
+    content: '';
+    position: absolute;
+    bottom: -1px;
+    width: 40px;
+    height: 2px;
+    background-color: #fff;
+    transition: all 0.3s ease-in-out;
+}
+
+.nav-pills {
+    --bs-nav-pills-border-radius: var(--bs-border-radius);
+    --bs-nav-pills-link-active-color: #fff;
+    --bs-nav-pills-link-active-bg: transparent;
+    transition: all 0.3s ease-in-out;
+}
+
+.nav-pills .nav-link {
+    border-radius: var(--bs-nav-pills-border-radius)
+}
+
+.nav-pills .nav-link.active::before {
+    content: '';
+    position: absolute;
+    bottom: -1px;
+    width: 40px;
+    height: 2px;
+    background-color: #fff;
+}
+
+.menu-icon {
+    color: #fff;
+}
+
+/*& -- Home Heroo -- */
+.hero {
+    height: 100vh;
+    background-image: url(../Images/hero-bg.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.hero-overlay {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.hero-content h1 {
+    font-size: 72px;
+    line-height: 83px;
+}
+
+.hero-content p {
+    font-size: 40px;
+    line-height: 60px;
+}
+
+/*& -- About Me -- */
+.about-me,
+.services {
+    background-color: var(--bckground);
+}
+
+.right h2::before {
+    content: '';
+    position: absolute;
+    bottom: -12px;
+    width: 100px;
+    height: 3px;
+    background-color: var(--line-color);
+}
+
+/*& -- Skill -- */
+.w-90 {
+    width: 90%;
+}
+
+.w-85 {
+    width: 85%;
+}
+
+.text-justify {
+    color: #4e4e4e;
+}
+
+/*& -- Services -- */
+.icon {
+    width: 130px;
+    height: 130px;
+    position: relative;
+    border: solid 10px var(--line-color);
+    border-radius: 50%;
+    transition: all 0.5s ease-in-out;
+}
+
+.icon i {
+    font-size: 40px;
+    position: absolute;
+    top: 35px;
+    left: 35px;
+    transition: all 0.5s ease-in-out;
+}
+
+.card-:hover .icon {
+    background-color: var(--line-color);
+    border: solid 10px var(--bckground-border-hover);
+}
+
+.card-:hover i {
+    color: #fff;
+}
+
+/*& -- Counters -- */
+.counters {
+    background-image: url(../Images/counters-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.overla {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 119, 255, 0.712);
+}
+
+.ico {
+    width: 70px;
+    height: 70px;
+
+    border: solid 10px var(--bckground-border-hover);
+    border-radius: 50%;
+}
+
+.ico i {
+    font-size: 20px;
+    top: 15px;
+    left: 15px;
+}
+
+/*& -- Portfolio -- */
+.portfolio {
+    background-color: var(--bckground);
+}
+
+.add {
+    width: 50px;
+    height: 50px;
+}
+
+.link-add span {
+    font-size: 45px;
+}
+
+.card-hov img {
+    transition: all 0.8s 0.1s ease-in-out;
+}
+
+.card-hov:hover img {
+    transform: scale(1.3, 1.3);
+}
+
+/*& -- Carousel -- */
+.carousel {
+    background-image: url(../Images/overlay-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.image-carousel {
+    width: 100px;
+    height: 100px;
+}
+
+.item-test {
+    height: 250px;
+}
+
+/*& -- Blog -- */
+.link-hover a {
+    color: black;
+    transition: all 0.3s ease-in-out;
+}
+
+.link-hover a:hover {
+    color: var(--line-color);
+}
+
+.img-footer {
+    width: 40px;
+    height: 40px;
+}
+
+.badge- {
+    bottom: -12px;
+    transform: translateX(-50%);
+}
+
+/*& -- Send Message -- */
+.send-message {
+    background-image: url(../Images/overlay-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.overlay-form {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 119, 255, 0.712);
+}
+
+.heading- h1 {
+    font-size: 32px;
+}
+
+.heading-::after {
+    content: '';
+    width: 100px;
+    height: 5px;
+    position: absolute;
+    bottom: -15px;
+    left: 13px;
+    background-color: var(--line-color);
+}
+
+.form textarea {
+    resize: vertical;
+}
+
+.my-border {
+    border: var(--line-color) 3px solid;
+    border-radius: 50%;
+}
+
+.contact span {
+    color: var(--line-color);
+}
+
+.my-border:hover {
+    background-color: var(--line-color);
+    border: var(--bckground) 3px solid;
+}
+
+.my-border i {
+    color: black;
+}
+
+.my-border:hover i {
+    color: #fff;
+}
+
+/*& -- Footer -- */
+.footer {
+    color: #fff;
+    background-color: #0062d3;
+}
+
+/** -- Button Up -- */
+.w-20{
+    width: 30px;
+    height: 30px;
+    
+}
+.button-arrow-up {
+    width: 30px;
+    height: 30px;
+    scroll-behavior: smooth;
+    transition: scroll-behavior ease-in-out 10s;
+}
